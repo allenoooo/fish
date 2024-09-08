@@ -1,0 +1,4 @@
+*.swp
+
+functions/work.fish
+conf.d/secret.fish
