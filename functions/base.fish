@@ -1,7 +1,18 @@
 alias v="nvim"
-alias c="bat"
+alias cat="bat"
 alias kc="kubectl"
-alias tmuxn="tmux new -s"
 alias ls="eza -l"
+alias lg="lazygit"
 
-source ~/.config/fish/functions/work.fish
+#function c
+#  open -a /Applications/Cursor.app $argv
+#end
+
+function tmuxn
+  tmux new -n $argv
+end
+
+function gv
+  cd ~/code/wander
+  v --listen ~/.cache/nvim/godot.pipe .
+end
