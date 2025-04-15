@@ -3,6 +3,7 @@ alias cat="bat"
 alias kc="kubectl"
 alias ls="eza -l"
 alias lg="lazygit"
+alias y="yazi"
 
 #function c
 #  open -a /Applications/Cursor.app $argv
